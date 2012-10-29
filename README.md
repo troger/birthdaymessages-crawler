@@ -2,7 +2,7 @@
 
 ## Overview
 
-This scripts crawls the given URL from [birthdaymessages](http://birthdaymessages.com/) to extract messages and post them to the specified SosMessage API URL.
+This scripts crawls the given URL from [birthdaymessages](http://www.birthdaymessages.com/) to extract messages and post them to the specified SosMessage API URL.
 
 Sample usage:
 
@@ -12,8 +12,8 @@ The crawler will try itself all the available URLs: happy1.htm, happy2.htm, ... 
 
 Full options:
 
-    Usage: unecartedevoeux-crawler.rb [options]
-    -u, --messages-url URL           The unecartedevoeux category url
+    Usage: birthdaymessages-crawler.rb [options]
+    -u, --messages-url URL           The birthdaymessages category url
     -s, --sosmessage-url URL         The SosMessage API url
     -c, --category-id CATEGORY_ID    The category id where to post the messages
     -m, --max-characters MAX         MAX characters of the message
